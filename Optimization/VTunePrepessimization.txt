@@ -1,0 +1,13 @@
+Run VTune on Pre-pessimization with ITT
+
+1. Build Release Version of VTuneIntro project
+2. Open VTune
+3. Create New Project: VTuneIntro
+4. Enter path to executable: C:\GitHub\Orion\GameDevExamples\x64\Release\VTuneIntro.exe
+5. Add User Defined Environment Variable
+    - INTEL_LIBITTNOTIFY64  
+    - %ProgramFiles(x86)%/Intel/oneAPI/vtune/latest/bin64/runtime/ittnotify_collector.dll
+6. Run Performance Snapshot & Hotspots analysis
+7. Uncomment line 26 in DataProcessor.cpp of VTuneIntro project
+8. Build VTunIntro.exe
+9. Run Performance Snapshot & Hotspots analysis

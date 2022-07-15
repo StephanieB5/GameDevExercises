@@ -1,0 +1,24 @@
+https://godbolt.org/
+
+```C++
+constexpr int N = 40;           // array dimensions
+
+void function(float a[])
+{
+    float b[N];
+    float c[N];
+    for (int i = 0; i < N; ++i) 
+        a[i] = b[i] + c[i];
+}
+```
+#### MSVC
+- "x64 msvc v19.latest"
+- for vectorization add flags: //O2 //fp:fast
+
+#### GCC
+- "x86-64 gcc 12.0"
+- for vectorization add flags: /-O3 /-ffast-math
+
+#### Clang: 
+- x86-64 clang (trunk)
+- for vectorization add flags: /-O2
