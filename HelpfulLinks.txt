@@ -1,0 +1,13 @@
+Helpful Links
+
+Use inline functions instead of preprocessor macros: 
+- https://isocpp.org/wiki/faq/inline-functions#inline-vs-macros
+
+"100 inline functions each of which expands to 100 bytes of executable code and is called in 100 places, that’s an increase of 1MB" 
+- https://isocpp.org/wiki/faq/inline-functions
+
+MSVC supported intrinsics that are supported on all platforms:
+https://docs.microsoft.com/en-us/cpp/intrinsics/intrinsics-available-on-all-architectures?view=msvc-170
+
+Tips and Guide for reading the reports 
+https://dokumen.tips/documents/auto-vectorizer-08-cookbookpdf.html?page=2
