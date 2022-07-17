@@ -11,3 +11,13 @@ https://docs.microsoft.com/en-us/cpp/intrinsics/intrinsics-available-on-all-arch
 
 Tips and Guide for reading the reports 
 https://dokumen.tips/documents/auto-vectorizer-08-cookbookpdf.html?page=2
+
+
+Cross Product - for more details: 
+https://www.mathsisfun.com/algebra/vectors-cross-product.html
+
+Matricies - for more details: 
+https://www.khanacademy.org/math/algebra-home/alg-matrices
+
+"The concept of a space is an extremely general and important mathematical construct. Members of the space obey certain addition properties."
+https://mathworld.wolfram.com/Space.html
